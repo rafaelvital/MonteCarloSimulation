@@ -1,0 +1,18 @@
+classdef ProcessoEntranteAbstract < handle
+    
+    properties
+        
+    end
+    
+    methods (Abstract)
+        [numeroProcessosEntrantes] = calculaNumeroProcessoEntrantes(self,agumentosProcessoEntrantes);
+        [processoEntrantes] = geraProcesso(self,agumentosProcessoEntrantes);
+        
+    end
+    
+%     methods 
+%         function self = ProcessoEntranteAbstract()
+%         end
+%     end
+   
+end
